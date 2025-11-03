@@ -1,0 +1,13 @@
+{
+  "name": "user-management-console",
+  "version": "1.0.0",
+  "description": "Simple user management console using Node.js and vanilla JS",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "body-parser": "^1.20.2"
+  }
+}
