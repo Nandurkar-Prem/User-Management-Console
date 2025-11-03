@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>User Management Console</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>👥 User Management Console</h1>
+    </header>
+
+    <section class="form-section">
+      <form id="userForm">
+        <input type="hidden" id="userId" />
+        <div class="form-group">
+          <input type="text" id="name" placeholder="Full Name" required />
+          <input type="email" id="email" placeholder="Email Address" required />
+          <input type="text" id="role" placeholder="Role (Admin/User)" required />
+          <button type="submit" id="saveBtn">💾 Save User</button>
+        </div>
+      </form>
+    </section>
+
+    <section class="table-section">
+      <table id="userTable">
+        <thead>
+          <tr>
+            <th>Name</th><th>Email</th><th>Role</th><th>Actions</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+  </div>
+
+  <footer>
+    <p>Made with ❤️ using Node.js & Vanilla JS</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
